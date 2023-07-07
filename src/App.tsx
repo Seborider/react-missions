@@ -15,7 +15,7 @@ function App() {
       <a href="#" onClick={onClick}>
         Click here
       </a>
-      {message}
+      <div style={{ marginLeft: '1rem' }}>{message}</div>
     </div>
   )
 }

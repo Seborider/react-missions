@@ -10,6 +10,7 @@ Check App.tsx. There's a thing which can be improved.
 
 ## Mission #2
 
+Test the behaviour of the app properly.
 
 ## Mission #3
 
