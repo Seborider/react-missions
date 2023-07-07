@@ -14,8 +14,7 @@ Test the behaviour of the app properly.
 
 ## Mission #3
 
-It must be possible to query a list of items from the backend. The backend is not ready yet but the work on the frontend must already start. Find a solution to mock the response data from the backend without needing to change too many things once the backend implementation is in place.
-The items must be displayed in an unstyled unordered list.
+The App should display an unstyled unordered list of items above the counter. The list of items must be fetched from a backend. The backend is not ready yet but the work on the frontend must already start. Find a solution to mock the response data from the backend without needing to change too many things once the backend implementation is in place.
 
 The JSON structure looks like the following:
 ```
