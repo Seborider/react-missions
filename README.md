@@ -41,3 +41,7 @@ The JSON structure looks like the following:
   }
 ]
 ```
+
+## Mission #4
+
+Add type annotations in a meaningful way, if you not already did it.
