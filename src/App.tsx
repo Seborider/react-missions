@@ -1,23 +1,19 @@
-import React, { useEffect, useState } from "react"
-import "./App.css"
+import React, { useState } from "react";
+import "./App.css";
+import ItemsList from "./components/items-list/items-list";
 
-function App() {
-  const [message, setMessage] = useState("")
-  const [count, setCount] = useState(0)
-  useEffect(() => {
-    setMessage(`${count} Times clicked`)
-  })
-  const onClick = () => {
-    setCount(count + 1)
-  }
+const App: React.FC = () => {
+  const [count, setCount] = useState<number>(0);
+
+  const handleIncrement = () => {
+    setCount((prevCount) => prevCount + 1);
+  };
+
   return (
     <div className="container">
-      <a href="#" onClick={onClick}>
-        Click here
-      </a>
-      <div style={{ marginLeft: '1rem' }}>{message}</div>
+      <ItemsList count={count} onIncrement={handleIncrement} />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
